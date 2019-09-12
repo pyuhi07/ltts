@@ -39,9 +39,9 @@ struct list {
 // the given node 
 void printList(struct list* n) 
 { 
-    while (n !==NULL) { 
-        printf("%d", n->data); 
-        n = n->next; 
+    while (n !=NULL) { 
+        printf("%d",n->data); 
+        n=n->next; 
     } 
     printf("\n");
 }
